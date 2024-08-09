@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    overflow-x: auto;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);-->
+
+   
+}
+
+.navcontainer{
+    width: 100vw;
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+   
+   min-height: 80px;
+   
+}
+
+nav{
+    width:100%;
+    height:10px;
+   
+}
+
+
+#navlist{
+list-style: none;
+   display: flex;
+   justify-content: space-between;
+   margin-right: 15px;
+   margin-left: 15px;
+}
+
+#navlogo{
+    font-size:50px;
+    font-style: oblique;
+    margin-top: 5px;
+    justify-content: center;
+    padding-top: 10px;
+    color:azure;
+    padding-left: 20px;
+}
+
+#homelist{
+    margin-top: 50px;
+    font-size:25px;
+    display: flex;
+    gap:25px;
+   
+}
+a{
+    text-decoration: none;
+    color: azure;
+    font-size: 30px;
+}
+a:hover{
+    background-color:rgb(192, 192, 46);
+    border: 2px rgb(138, 235, 135);
+    border-radius:5px;
+    
+}
+.contentbox{
+    display: flex;
+    overflow: auto;
+    flex-direction: row;
+    display: inline-block;
+    
+
+}
+.firstbox img{
+    height:auto;
+    width:500px;
+    padding-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    display: inline-block;
+
+    
+}
+#welcome{
+    font-size: 50px;
+    margin-left: 10px;
+    color:darkblue;
+}
+
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  .animated {
+    animation: slide-in 1.5s ease-out;
+    font-size: 60px;
+    color:rgb(66, 167, 155);
+    justify-content: center;
+    padding-left: 550px;
+    margin-top: 10px;
+  }
+.animated1{
+    animation: slide-in 1.5s ease-in-out;
+    
+    color: rgb(59, 148, 148);
+    padding-left:0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.benifits{
+    display: flex;
+    
+}
+h2{
+    color:#08AEEA;
+    background-color: yellow;
+    display: inline-block;
+}
+
+.text{
+    justify-content: center;
+    padding-left: 100px;
+    margin-top: 20px;
+   
+}
+#manage{
+    font-size: 20px;
+    margin: 20px;
+}
+
+#manage::first-letter{
+    color: red;
+    font-size: 50px;
+    font-style: normal;
+}
+h3{
+    color:#08AEEA;
+    background-color: yellow;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 70px;
+    font-size: 40px;
+}
+
+p{
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+
+.cards{
+    background-image: url();
+   
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+   margin-left: 10px;
+}
+.cards img{
+    border-radius: 20px;
+    min-height: 70%;
+    width: 65%;
+   
+}
+.second{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    
+}
+
+.Courses{
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#subjects{
+    text-decoration: underline;
+    margin-left: 25px;
+    margin-top: 20px;
+    background: none;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    justify-content: center;
+    
+}
+
+#subjects::first-letter{
+    color: purple;
+    font-size: 35px;
+
+}
+
+
+li{
+   
+    margin-left: 30px;
+    color: rgb(4, 0, 255);
+    font-size: 20px;
+}
+#subjectlist{
+    margin-top: 30px;
+}
+ol li a{
+    
+    color:black;
+    text-decoration: underline;
+    text-align: center;
+    justify-content: center;
+
+}
+.details img{
+    border-radius: 15px;
+   margin-right: 40px;
+   
+}
+
+form{
+    margin-top: ;
+    max-width: 500px;
+   margin:70px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    background-image: url(images\ \(1\).jpeg);
+    border-radius: 5px;
+    max-height: 400px;
+}
+b{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+button{
+    padding: 10px;
+    margin: 15px;
+    border: #D9AFD9;
+    justify-content: center;
+    background-color: #2af2f5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer{
+    background-color: rgb(146, 68, 146);
+    justify-content: center;
+    text-align: center;
+    color: #ddd;
+}
